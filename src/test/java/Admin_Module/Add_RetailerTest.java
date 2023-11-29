@@ -1,4 +1,4 @@
-package Project_package;
+package Admin_Module;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;

@@ -1,4 +1,4 @@
-package Project_package;
+package Manufacturer_Module;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
