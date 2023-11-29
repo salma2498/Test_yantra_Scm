@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+ <groups>
+  <run>
+  <include name="smoke"></include>
+  </run>
+   </groups>
+  <test  name="TestRunner=1">
+  <parameter name="BROWSER" value="chrome"></parameter>
+    <classes>
+      <class name="com.PracticeTestNG.Practice_test2">
+      <methods>
+      <include name="test2"></include>
+      </methods>
+             </class>
+      <class name="com.PracticeTestNG.Practice_test1"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

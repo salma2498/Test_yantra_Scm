@@ -1,0 +1,11 @@
+browser=chrome
+url=http://rmgtestingserver/domain/Supply_Chain_Management/
+adminusername=admin
+adminpassword=admin123
+manufacturerusername=david
+manufacturerpassword=654321
+retailerusername=Divya
+retailerpassword=Divya
+adminlogintype=Admin
+manufacturerlogintype=Manufacturer
+retailerlogintype=Retailer

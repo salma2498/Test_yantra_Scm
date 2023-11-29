@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-10T15:37:32 IST" name="Surefire suite" finished-at="2023-11-10T15:38:03 IST" duration-ms="31170">
+    <groups>
+    </groups>
+    <test started-at="2023-11-10T15:37:32 IST" name="Surefire test" finished-at="2023-11-10T15:38:03 IST" duration-ms="31170">
+      <class name="Practice_package.CmdParameterTest">
+        <test-method signature="parametertest()[pri:0, instance:Practice_package.CmdParameterTest@78e94dcf]" started-at="2023-11-10T15:37:32 IST" name="parametertest" finished-at="2023-11-10T15:38:03 IST" duration-ms="31010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parametertest -->
+      </class> <!-- Practice_package.CmdParameterTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

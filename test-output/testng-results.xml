@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="1" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[addretailer-----Testscript execution starts from here----]]>
+    </line>
+    <line>
+      <![CDATA[addretailer23/11/2023 16-29-47---->Test script execution failed ----]]>
+    </line>
+    <line>
+      <![CDATA[deleteretailer-----Testscript execution starts from here----]]>
+    </line>
+    <line>
+      <![CDATA[deleteretailer-------Testscript executed successfully---]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-11-23T16:28:58 IST" name="Suite" finished-at="2023-11-23T16:30:47 IST" duration-ms="109505">
+    <groups>
+    </groups>
+    <test started-at="2023-11-23T16:28:58 IST" name="Test" finished-at="2023-11-23T16:30:47 IST" duration-ms="109505">
+      <class name="Project_package.Add_RetailerTest">
+        <test-method is-config="true" signature="config_BS()[pri:0, instance:Project_package.Add_RetailerTest@12bcd0c0]" started-at="2023-11-23T16:28:57 IST" name="config_BS" finished-at="2023-11-23T16:28:58 IST" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BS -->
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:Project_package.Add_RetailerTest@12bcd0c0]" started-at="2023-11-23T16:28:59 IST" name="config_BC" finished-at="2023-11-23T16:29:24 IST" duration-ms="25811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:Project_package.Add_RetailerTest@12bcd0c0]" started-at="2023-11-23T16:29:25 IST" name="config_BM" finished-at="2023-11-23T16:29:45 IST" duration-ms="20249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method signature="addretailer()[pri:0, instance:Project_package.Add_RetailerTest@12bcd0c0]" started-at="2023-11-23T16:29:45 IST" name="addretailer" finished-at="2023-11-23T16:29:47 IST" duration-ms="1490" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Add Product] but found [Admin: Home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Add Product] but found [Admin: Home]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.ObjectRepo.HomePage.AddProductConfirmatio(HomePage.java:96)
+at Project_package.Add_RetailerTest.addretailer(Add_RetailerTest.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[addretailer-----Testscript execution starts from here----]]>
+            </line>
+            <line>
+              <![CDATA[addretailer23/11/2023 16-29-47---->Test script execution failed ----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addretailer -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:Project_package.Add_RetailerTest@12bcd0c0]" started-at="2023-11-23T16:29:49 IST" name="config_AM" finished-at="2023-11-23T16:29:54 IST" duration-ms="5283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:Project_package.Add_RetailerTest@12bcd0c0]" started-at="2023-11-23T16:29:54 IST" name="config_AC" finished-at="2023-11-23T16:29:56 IST" duration-ms="2160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+        <test-method is-config="true" signature="config_As()[pri:0, instance:Project_package.Add_RetailerTest@12bcd0c0]" started-at="2023-11-23T16:30:59 IST" name="config_As" finished-at="2023-11-23T16:30:59 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_As -->
+      </class> <!-- Project_package.Add_RetailerTest -->
+      <class name="Project_package.Deleting_retailertest">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:Project_package.Deleting_retailertest@5b07730f]" started-at="2023-11-23T16:29:56 IST" name="config_BC" finished-at="2023-11-23T16:30:07 IST" duration-ms="11202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:Project_package.Deleting_retailertest@5b07730f]" started-at="2023-11-23T16:30:07 IST" name="config_BM" finished-at="2023-11-23T16:30:10 IST" duration-ms="3130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method signature="deleteretailer()[pri:0, instance:Project_package.Deleting_retailertest@5b07730f]" started-at="2023-11-23T16:30:10 IST" name="deleteretailer" finished-at="2023-11-23T16:30:42 IST" duration-ms="31369" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[deleteretailer-----Testscript execution starts from here----]]>
+            </line>
+            <line>
+              <![CDATA[deleteretailer-------Testscript executed successfully---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteretailer -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:Project_package.Deleting_retailertest@5b07730f]" started-at="2023-11-23T16:30:42 IST" name="config_AM" finished-at="2023-11-23T16:30:44 IST" duration-ms="2708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:Project_package.Deleting_retailertest@5b07730f]" started-at="2023-11-23T16:30:44 IST" name="config_AC" finished-at="2023-11-23T16:30:47 IST" duration-ms="2774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+      </class> <!-- Project_package.Deleting_retailertest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
