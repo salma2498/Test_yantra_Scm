@@ -20,7 +20,7 @@ import com.scmflex.Genericutils.BaseClass;
 @Listeners(com.scmflex.Genericutils.ListenerClass.class)
 public class Add_RetailerTest extends BaseClass {
 	
-	@Test
+	@Test(groups = "system")
 	public void addretailer() throws InterruptedException, IOException
 	{
 				

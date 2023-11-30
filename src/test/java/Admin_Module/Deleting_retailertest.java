@@ -13,7 +13,7 @@ public class Deleting_retailertest extends BaseClass {
 	
 	
 
-	@Test
+	@Test(groups = "system")
 	//@Parameters("BROWSER")
 	public void deleteretailer() throws Throwable {
 		HomePage hp=new HomePage(driver);
