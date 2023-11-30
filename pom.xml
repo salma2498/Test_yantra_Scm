@@ -79,7 +79,7 @@
         <version>3.2.2</version>
         <configuration>
         <suiteXmlFiles>
-        <suiteXmlFile>bacthsalma.xml</suiteXmlFile>
+        <suiteXmlFile>batchsalma.xml</suiteXmlFile>
         </suiteXmlFiles>
         </configuration>
       </plugin>
