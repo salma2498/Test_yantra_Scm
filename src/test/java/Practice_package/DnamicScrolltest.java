@@ -14,10 +14,10 @@ public class DnamicScrolltest {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		driver.get("https://www.amazon.in/");
+		driver.get("https://www.amazon.com/");
 		WebElement ele = driver.findElement(By.xpath("//a[text()='Help']"));
 		JavascriptExecutor js=(JavascriptExecutor) driver;
-		js.executeScript("argument[0].scrollIntoView()", ele);
+		js.executeScript("arguments[0].scrollIntoView(true);", ele);
 		ele.click();
 
 		
