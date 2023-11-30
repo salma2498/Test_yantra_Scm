@@ -24,16 +24,16 @@ public class AddProductsTest {
 	WebDriver driver;
 	
 	@Test(groups = "Integration")
-	@Parameters("BROWSER")
+	//@Parameters("BROWSER")
 	
-	public void product(String BROWSER) throws Throwable {
+	public void product() throws Throwable {
 		// get the data from the property files
 		 DatabaseUtils db=new DatabaseUtils();
 		 FileUtils fil=new FileUtils();
 		 WebDriverUtils wb=new WebDriverUtils();
 		 ExcelUtils exel= new ExcelUtils();
 	     
-	//	String BROWSER = fil.readDataFromPropertyFile("browser");
+		String BROWSER = fil.readDataFromPropertyFile("browser");
 		String URL = fil.readDataFromPropertyFile("url");
 		String manufuser = fil.readDataFromPropertyFile("manufacturerusername");
 		String manupass = fil.readDataFromPropertyFile("manufacturerpassword");

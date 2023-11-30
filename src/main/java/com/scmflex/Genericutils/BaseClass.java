@@ -20,7 +20,7 @@ public class BaseClass {
 	public FileUtils fil=new FileUtils();
 	public WebDriverUtils wb=new WebDriverUtils();
 	public ExcelUtils exel= new ExcelUtils();
-	public WebDriver driver;
+    public WebDriver driver;
 	public static WebDriver sdriver;
 	
 	@BeforeSuite(alwaysRun = true)

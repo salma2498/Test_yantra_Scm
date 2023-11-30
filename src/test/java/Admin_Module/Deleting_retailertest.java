@@ -1,36 +1,13 @@
 package Admin_Module;
 
-import java.io.FileInputStream;
-import java.time.Duration;
-import java.util.HashMap;
-import java.util.Properties;
-import java.util.Map.Entry;
-
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.ObjectRepo.AddProductPage;
 import com.ObjectRepo.AddRetailerPage;
 import com.ObjectRepo.HomePage;
-import com.ObjectRepo.LoginPage;
+
 import com.ObjectRepo.RetailersPage;
 import com.scmflex.Genericutils.BaseClass;
-import com.scmflex.Genericutils.DatabaseUtils;
-import com.scmflex.Genericutils.ExcelUtils;
-import com.scmflex.Genericutils.FileUtils;
-import com.scmflex.Genericutils.JavaUtils;
-import com.scmflex.Genericutils.WebDriverUtils;
+
 //@Listeners(com.scmflex.Genericutils.ListenerClass.class)
 public class Deleting_retailertest extends BaseClass {
 	

@@ -27,9 +27,9 @@ public class Add_RetailerTest extends BaseClass {
 		//validating home page is displayed
 		HomePage hp=new HomePage(driver);
 		
-		hp.AddProductConfirmatio(driver);
+		hp.AdminHomePageConfirmation(driver);
 		System.out.println("Home page is Displayed");
-		Assert.fail();
+		
 		//handling Add Retailer link
 		hp.clickOnAddRetailersLink();
 		
